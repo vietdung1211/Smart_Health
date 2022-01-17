@@ -119,12 +119,432 @@ main .box-login button {
   font-family: Montserrat-Bold;
   text-align: center;
   letter-spacing: 0.09em;
-  width: calc(100% - 50px);
+  width: calc(100% - 28px);
   height: 30px;
   border: none;
   margin-top: 22px;
   color: #fff;
   cursor: pointer;
+}
+
+main .box-login .box-input {
+  text-align: left;
+  margin-bottom: 29px;
+}
+
+main .box-login .box-input input {
+  text-align: left;
+  width: calc(100% - 40px);
+}
+
+main .box-login ul.note-password {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  font-size: 8px;
+  font-family: Montserrat-Medium;
+  line-height: 10px;
+  color: #FF0000;
+  opacity: 0.5;
+  text-align: left;
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+main .box-login ul.note-password li {
+  position: relative;
+  padding-left: 9px;
+}
+
+main .box-login ul.note-password li:before {
+  content: " ";
+  background: #FF0000;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main .box-login button {
+  margin-top: 9px;
+}
+
+header {
+  padding: 25px 16px 10px 21px;
+}
+
+header .logo img {
+  max-width: 149px;
+  width: 100%;
+}
+
+header .box-txt {
+  text-align: center;
+  font-size: 10px;
+  line-height: 12px;
+  color: #272727;
+  padding-left: 10px;
+  font-family: Montserrat-Regular;
+}
+
+header .box-txt button {
+  background: #27ACA0;
+  border-radius: 16px;
+  border: none;
+  width: 100%;
+  height: 22px;
+  color: #fff;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 0.09em;
+  font-family: Montserrat-Bold;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+main {
+  padding: 0 20px;
+}
+
+main ul.list-service {
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 0 21px;
+  text-align: center;
+  margin: 22px 0;
+}
+
+main ul.list-service li {
+  font-size: 10px;
+  cursor: pointer;
+  line-height: 12px;
+  text-align: center;
+  font-family: Montserrat-Bold;
+  color: #272727;
+}
+
+main ul.list-service li .box-img {
+  margin-bottom: 8px;
+}
+
+main .promotion {
+  margin: 20px 0 15px 0;
+}
+
+main .promotion .title {
+  font-size: 12px;
+  line-height: 15px;
+  font-family: Montserrat-Bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 10px;
+  margin-bottom: 15px;
+}
+
+main ul.list-post {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+}
+
+main ul.list-post li {
+  margin-right: 23px;
+}
+
+main ul.list-post li .box-img {
+  margin-bottom: 4px;
+}
+
+main ul.list-post li .box-txt {
+  font-size: 10px;
+  line-height: 12px;
+  color: #272727;
+  font-family: Montserrat-Bold;
+  padding-left: 9px;
+}
+
+main ul.list-post::-webkit-scrollbar {
+  display: none;
+}
+
+footer {
+  height: 88px;
+  padding: 21px 31px 30px 31px;
+}
+
+footer ul.list-footer {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+footer ul.list-footer li {
+  opacity: 0.5;
+}
+
+footer ul.list-footer li.active {
+  opacity: 1;
+}
+
+footer ul.list-footer li img {
+  cursor: pointer;
+}
+
+footer ul.list-footer li .box-txt {
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  font-family: Montserrat-SemiBold;
+  color: #272727;
+}
+
+main .box-login button {
+  margin-top: 44px;
+}
+
+main .box-login .box-input {
+  text-align: left;
+  margin-bottom: 29px;
+}
+
+main .box-login .box-input input {
+  text-align: left;
+  width: calc(100% - 40px);
+}
+
+main .box-login ul.note-password {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  font-size: 8px;
+  font-family: Montserrat-Medium;
+  line-height: 10px;
+  color: #FF0000;
+  opacity: 0.5;
+  text-align: left;
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+main .box-login ul.note-password li {
+  position: relative;
+  padding-left: 9px;
+}
+
+main .box-login ul.note-password li:before {
+  content: " ";
+  background: #FF0000;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main .box-login button {
+  margin-top: 9px;
+}
+
+main .box-login {
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+main .box-login h1.title {
+  margin-bottom: 31px;
+}
+
+main .box-login .box-otp {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  grid-gap: 6px;
+  margin-bottom: 21px;
+}
+
+main .box-login .box-otp input {
+  width: 45px;
+  height: 60px;
+  background: #FFFFFF;
+  border: 1px solid #27ACA0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 16px;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+}
+
+main .box-login .box-otp input[type='number']::-webkit-inner-spin-button,
+main .box-login .box-otp input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+main .box-login p.text {
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  font-family: Montserrat-Medium;
+  color: #272727;
+}
+
+main .box-login p.text u {
+  cursor: pointer;
+}
+
+main .box-login button {
+  margin-top: 52px;
+}
+
+ul.list-promotion li {
+  margin-bottom: 20px;
+}
+
+.bg-single {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.bg-single .box-img {
+  text-align: center;
+}
+
+header .title {
+  font-size: 15px;
+  line-height: 18px;
+  color: #272727;
+  font-family: Montserrat-Bold;
+}
+
+header:after {
+  display: none !important;
+}
+
+.header-search {
+  position: relative;
+  background: #FFFFFF;
+  border-radius: 16px;
+  height: 28px;
+  width: calc(100% - 42px);
+  margin: 0 auto;
+  top: -18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-search input {
+  height: 12px;
+  padding: 0 37px;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  border: none;
+}
+
+.header-search img {
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 15px;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+main ul.list-tab-post {
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 12px;
+  margin: 12px 0 45px 0;
+}
+
+main ul.list-tab-post li {
+  height: 28px;
+  background: none;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #272727;
+  font-family: Montserrat-Bold;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+main ul.list-tab-post li.active {
+  color: #FFFFFF;
+  background: #27ACA0;
+}
+
+main ul.list-content-post li {
+  margin-bottom: 20px;
+}
+
+main ul.list-content-post li .box-txt {
+  padding: 5px 0 3px 14px;
+}
+
+main ul.list-content-post li .box-txt p {
+  font-size: 10px;
+  line-height: 12px;
+  color: #272727;
+  font-family: Montserrat-Bold;
 }
 
 body {
@@ -171,5 +591,9 @@ header:after {
 
 header img {
   cursor: pointer;
+}
+
+ul {
+  list-style: none;
 }
 /*# sourceMappingURL=main.css.map */

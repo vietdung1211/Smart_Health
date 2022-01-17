@@ -5,6 +5,14 @@
 }
 @import "./font.scss";
 @import "./../component/login/login.scss";
+@import "./../component/change-password/change-password.scss";
+@import "./../component/home/home.scss";
+@import "./../component/password/password.scss";
+@import "./../component/set-password/change-password.scss";
+@import "./../component/verify-otp/verify-otp.scss";
+@import "./../component/single-promotion/single-promotion.scss";
+@import "./../component/single-post/single-post.scss";
+@import "./../component/lisst-post/list-post.scss";
 body{
     background: #888;
 }
@@ -39,4 +47,8 @@ header{
     img{
         cursor: pointer;
     }
+}
+
+ul{
+    list-style: none;
 }

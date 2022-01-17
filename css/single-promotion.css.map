@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,EADF,AAAA,eAAe,CACb,EAAE,CAAA;EACE,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "../component/single-promotion/single-promotion.scss"
+    ],
+    "names": [],
+    "file": "single-promotion.css"
+}
