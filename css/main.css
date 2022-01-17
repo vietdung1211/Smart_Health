@@ -119,7 +119,7 @@ main .box-login button {
   font-family: Montserrat-Bold;
   text-align: center;
   letter-spacing: 0.09em;
-  width: 100%;
+  width: calc(100% - 50px);
   height: 30px;
   border: none;
   margin-top: 22px;
@@ -128,7 +128,7 @@ main .box-login button {
 }
 
 body {
-  background: red;
+  background: #888;
 }
 
 .layout {

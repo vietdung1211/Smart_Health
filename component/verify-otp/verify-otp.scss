@@ -1,0 +1,44 @@
+main{
+    .box-login{
+        padding-left: 11px;
+        padding-right: 11px;
+        h1.title{
+            margin-bottom: 31px;
+        }
+        .box-otp{
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            grid-gap: 6px;
+            margin-bottom: 21px;
+            input{
+                width: 45px;
+                height: 60px;
+                background: #FFFFFF;
+                border: 1px solid #27ACA0;
+                box-sizing: border-box;
+                border-radius: 16px;
+                font-size: 20px;
+                text-align: center;
+                color: #000;
+            }
+            input[type='number']::-webkit-inner-spin-button, 
+            input[type='number']::-webkit-outer-spin-button { 
+                -webkit-appearance: none;
+                margin: 0;
+            }
+        }
+        p.text{
+            font-size: 10px;
+            line-height: 12px;
+            text-align: center;
+            font-family: Montserrat-Medium;
+            color: #272727;
+            u{
+                cursor: pointer;
+            }
+        }
+        button{
+            margin-top: 52px;
+        }
+    }
+}
