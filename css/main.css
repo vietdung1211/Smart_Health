@@ -7,22 +7,22 @@
 
 @font-face {
   font-family: Montserrat-Bold;
-  src: url(/font/Montserrat-Bold.ttf);
+  src: url(../font/Montserrat-Bold.ttf);
 }
 
 @font-face {
   font-family: Montserrat-Medium;
-  src: url(/font/Montserrat-Medium.ttf);
+  src: url(../font/Montserrat-Medium.ttf);
 }
 
 @font-face {
   font-family: Montserrat-Regular;
-  src: url(/font/Montserrat-Regular.ttf);
+  src: url(../font/Montserrat-Regular.ttf);
 }
 
 @font-face {
   font-family: Montserrat-SemiBold;
-  src: url(/font/Montserrat-SemiBold.ttf);
+  src: url(../font/Montserrat-SemiBold.ttf);
 }
 
 main .logo {
@@ -47,7 +47,7 @@ main .box-login h1.title {
   font-size: 24px;
   line-height: 29px;
   color: #272727;
-  margin-bottom: 25px;
+  margin-bottom: 44px;
 }
 
 main .box-login .box-input {
@@ -88,6 +88,7 @@ main .box-login .box-input img {
   top: calc(50% + 1px);
   -webkit-transform: translate(0%, -50%);
           transform: translate(0%, -50%);
+  cursor: pointer;
 }
 
 main .box-login .box-input:after {
@@ -122,6 +123,8 @@ main .box-login button {
   height: 30px;
   border: none;
   margin-top: 22px;
+  color: #fff;
+  cursor: pointer;
 }
 
 body {
